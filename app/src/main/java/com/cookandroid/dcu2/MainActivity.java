@@ -17,18 +17,18 @@ public class MainActivity extends TabActivity {
 
         TabHost tabHost = getTabHost();
 
-        TabSpec tabSpecSong = tabHost.newTabSpec("HOME").setIndicator("HOME");
-        tabSpecSong.setContent(R.id.home);
-        tabHost.addTab(tabSpecSong);
+        TabSpec tabHome = tabHost.newTabSpec("HOME").setIndicator("HOME");
+        tabHome.setContent(R.id.home);
+        tabHost.addTab(tabHome);
 
-        TabSpec tabSpecArtist = tabHost.newTabSpec("PAYMENT_HISTORY")
+        TabSpec tabPayment_history = tabHost.newTabSpec("PAYMENT_HISTORY")
                 .setIndicator("결제내역");
-        tabSpecArtist.setContent(R.id.payment_history);
-        tabHost.addTab(tabSpecArtist);
+        tabPayment_history.setContent(R.id.payment_history);
+        tabHost.addTab(tabPayment_history);
 
-        TabSpec tabSpecAlbum = tabHost.newTabSpec("SHOPPING_BAG").setIndicator("장바구니");
-        tabSpecAlbum.setContent(R.id.shopping_bag);
-        tabHost.addTab(tabSpecAlbum);
+        TabSpec tabShopping_bag = tabHost.newTabSpec("SHOPPING_BAG").setIndicator("장바구니");
+        tabShopping_bag.setContent(R.id.shopping_bag);
+        tabHost.addTab(tabShopping_bag);
 
         tabHost.setCurrentTab(0);
 
