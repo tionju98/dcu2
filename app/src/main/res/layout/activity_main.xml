@@ -451,14 +451,14 @@
                             android:layout_width="wrap_content"
                             android:layout_weight="1"
                             android:layout_height="wrap_content"
-                            android:text="잡곡밥"
+                            android:text="@string/foodname_1_1"
                             android:textSize="12pt"
                             android:gravity="left"/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_weight="1"
                             android:layout_height="wrap_content"
-                            android:text="500원"
+                            android:text="@string/foodprice_1_1"
                             android:textSize="8pt"
                             android:gravity="center_horizontal"/>
                         <Button
